@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -6,7 +7,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        
+                        // use fontawesome.com to create the logo (AB)
                     </Link>  
                 </div>
             </nav>
